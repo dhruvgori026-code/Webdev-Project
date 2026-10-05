@@ -1,3 +1,0 @@
-let report= [
-    {name:rahul}
-]
