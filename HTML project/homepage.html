@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOMEPAGE</title>
+        <link rel="icon" type="img" href="home.png">
+        <link rel="html" href="triassic-page.html">
+        <link rel="html" href="jurassic-page.html">
+        <link rel="html" href="cretaceous-page.html">
+        <style>
+            nav
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: flex-end;
+                height: 7vh;
+                background-color: darkslategrey;
+                margin-bottom: 5px;
+            }
+
+            #bodypage
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 100vh;
+                width:100;
+                background-color:lightsteelblue;
+                background-image: url("mainpage.png");
+                background-size: cover;
+                background-position: relative;
+                background-repeat: no-repeat;
+            }
+
+            body
+            {
+                background-color:black;
+                border: 1px solid;
+            }
+            
+            a
+            {
+                color: white;
+                text-decoration: none;
+            }
+
+            .nav
+            {
+                font-size: larger;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 30px;
+                color: rgb(247, 228, 124);
+                text-decoration: none;
+                height: 5vh;
+                padding: 4px;
+            }
+
+            #lmore
+            {
+                background-color: lightcoral;
+                border-radius: 5px;
+                border: 3px solid;
+                border-color: black;
+                height: 7vh;
+                width:150px;
+                font-size: 22px;
+                margin: 5px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+
+            #lmore:hover
+            {
+                transform: scale(1.04);
+                transition: 0.1s;
+                background-color: coral;
+                cursor: pointer;
+            }
+
+            #b3
+            {
+                font-weight: 900;
+            }
+            #b1
+            {
+                transition: 0.4s;
+                text-align: center;
+                font-weight: 900;
+                color: white;
+            }
+            #b1:hover
+            {
+                transform: scale(1.03);
+                color: black;
+            }
+             #page
+            {
+                text-decoration: underline;
+                font-weight: 550;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a class="nav" id="page" target="_blank">Home</a>
+            <a class="nav" href="triassic-page.html" target="_blank">Triassic</a>
+            <a class="nav" href="jurassic-page.html" target="_blank">Jurassic</a>
+            <a class="nav" href="cretaceous-page.html" target="_blank">Cretaceous</a>
+        </nav>
+        <div id="bodypage">
+        <p style="font-size: 60px;font-family: sans-serif ;" id="b1">THE ANCIENT RULERS OF<br>EARTH</p>
+        <br>
+        <a href="dinoinfo.html" target="_blank"><button id="lmore" >Learn More</button></a>
+        </div>
+    </body>
+</html>

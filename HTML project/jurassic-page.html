@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JURASSIC</title>
+        <link rel="icon" type="img" href="jurassicfa.png">
+        <style>
+            @media screen and (max-width:768px)
+            {
+                body
+                {
+                    background-color:black;
+                }
+
+                #body
+                {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                    height: 100%;
+                    width:100%;
+                    background-color: darkslategray;
+                }
+
+                nav
+                {
+                    width:100%;
+                }
+                #header
+                {
+                    width:100%;
+                }
+            }
+            body
+            {
+                background-color: black;
+            }
+            #body
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                height: 100%;
+                width:100%;
+                background-color: darkslategray;
+            }
+            .tdino
+            {
+                background-color: bisque ;
+                margin: 7px;
+                border-radius: 7px;
+                display: flex;
+                flex-direction: row;
+                border: 3px solid white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: 550;
+                box-shadow: 3px 3px 3px black;
+            }
+            .tdino:hover
+            {
+                transform: scale(1.02);
+                transition: 0.2s;
+            }
+            nav
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: flex-end;
+                height: 7vh;
+                background-color: darkslategrey;
+            }
+            #header
+            {
+                color: beige;
+                font-weight: 800;
+                font-family: fantasy;
+                text-align: center;
+                font-size: 28px;
+                margin: 2px;
+                height: 18vh;
+                gap: 0px;
+            }
+            #page
+            {
+                text-decoration: underline;
+                font-weight: 550;
+            }
+            .n
+            {
+                font-size: larger;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 30px;
+                color: rgb(247, 228, 124);
+                text-decoration: none;
+                height: 5vh;
+                padding: 4px;
+            }
+            .food
+            {
+                border-radius: 20px;
+                font-size: 25px;
+                text-align: center;
+                padding: 3px;
+                margin: 3px;
+                
+            }
+            #car
+            {
+                background-color: lightcoral;
+                border: 3px solid red;
+                width:35%;
+                color: darkred;
+            }
+            #mar
+            {
+                background-color: lightblue;
+                border:3px solid blue;
+                width:35%;
+                color:blue;
+            }
+            #her
+            {
+                background-color: lightgreen;
+                border: 3px solid green;
+                width: 35%;
+                color: darkgreen;
+            }
+            #flr
+            {
+                background-color: rgb(226, 226, 134);
+                border: 3px solid goldenrod;
+                width:35%;
+                color: darkgoldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="homepage.html"class="n">Home</a>
+            <a href="triassic-page.html"class="n">Triassic</a>
+            <a class="n" id="page">Jurassic</a>
+            <a href="cretaceous-page.html"class="n">Cretaceous</a>
+        </nav>
+        <div id="header">
+            <h1>----- The Jurassic -----</h1>
+            <p>---- 201-145 Million Years Ago ----</p>
+        </div>
+        <div id="body">
+        <div id="dino1" class="tdino">
+            <div>
+            <h1>ALLOSAURUS</h1>
+            Allosaurus is a genus of theropod dinosaur that lived 155 to 143 million years ago during the late Jurassic period (latest Oxfordian to latest Tithonian ages).<br>
+            The first fossil remains that could definitively be ascribed to this genus were described in 1877 by Othniel C. Marsh.<br>
+            The name "Allosaurus" means "different lizard", alluding to its lightweight vertebrae, which Marsh believed were unique.<br>
+            Allosaurus was a large bipedal predator for its time. Its skull was light, robust, and equipped with dozens of sharp, serrated teeth.<br>
+            It averaged 7.5–8 meters (25–26 ft) in length for fragilis, with the largest specimens of fragilis estimated as being 9 meters (30 ft) long.<br>
+            Relative to the large and powerful legs, its three-fingered hands were small and the body was balanced by a long, muscular tail.<br>
+            <p class="food" id="car">Carnivore</p>
+            </div>
+            <div>
+            <img src="allosaur.png" alt="dino" height="200px" width="300px" style="border-radius: 7px;margin: 2px;border: 2px solid;">
+            <img src="allosaur2.png" height="200px" width="300px" style="border-radius: 7px;margin: 2px;border: 2px solid;">
+            </div>
+        </div>
+        <div id="dino2" class="tdino">
+            <div>
+            <h1>STEGOSAURUS</h1>
+            Stegosaurus is a genus of extinct herbivorous four-legged armored dinosaurs from the Late Jurassic,<br>
+            characterized by the distinctive kite-shaped upright plates along their backs and spikes on their tails.<br>
+            Fossils of the genus have been found in the western United States and in Portugal,<br>
+            where they are found in Kimmeridgian- to Tithonian-aged strata, dating to between 155 and 145 million years ago.<br>
+            They were large, heavily built, herbivorous quadrupeds with rounded backs, short fore limbs, long hind limbs, and tails held high in the air.<br>
+            Due to their distinctive combination of broad, upright plates and tail tipped with spikes,<br>
+            Stegosaurus is one of the most recognizable kinds of dinosaurs.<br>
+            <p class="food" id="her">Herbivore</p>
+            </div>
+            <div>
+                <img src="stegosaur.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+                <img src="stegosaur2.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+            </div>
+        </div>
+        <div id="dino3" class="tdino">
+            <div>
+            <h1>DIMORPHODON</h1>
+            Dimorphodon is a genus of medium-sized pterosaur that lived in Europe during the early Jurassic Period (about 201-191 million years ago).<br>
+            It was named by paleontologist Richard Owen in 1859.<br>
+            Dimorphodon means "two-form tooth", derived from the Greek di- meaning 'two', morphḗ meaning 'shape' and odṓn meaning 'tooth',<br>
+            referring to the fact that it had two distinct types of teeth in its jaws – which is comparatively rare among reptiles.<br>
+            The diet of Dimorphodon has been questioned among researchers, with earlier interpretations depicting it as an insectivore or a piscivore.<br>
+            <p class="food" id="flr">Flying reptile</p>
+            </div>
+            <div>
+                <img src="dimorphodon.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+                <img src="dimorphodon2.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+            </div>
+        </div>
+        <div id="dino4" class="tdino">
+            <div>
+            <h1>PTERODACTYLUS</h1>
+            Pterodactylus is a genus of extinct pterosaurs.<br>
+            It is thought to contain only a single species, Pterodactylus antiquus,<br>
+            which was the first pterosaur to be named and identified as a flying reptile and one of the first prehistoric reptiles ever to be discovered.<br>
+            Fossil remains of Pterodactylus have primarily been found in the Solnhofen limestone of Bavaria, Germany,<br>
+            which dates from the Late Jurassic period (Tithonian stage), about 150.8 to 148.5 million years ago.<br>
+            More fragmentary remains of Pterodactylus have tentatively been identified from elsewhere in Europe and in Africa.<br>
+            <p class="food" id="flr">Flying Reptile</p>
+            </div>
+            <div>
+                <img src="pterodactylus.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+                <img src="pterodactylus2.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+            </div>
+        </div>
+        <div id="dino5" class="tdino">
+            <div>
+            <h1>DAKOSAURUS</h1>
+            Dakosaurus is an extinct genus of crocodylomorph within the family Metriorhynchidae that lived during the Late Jurassic and Early Cretaceous.<br>
+            It was large, with teeth that were serrated and compressed lateromedially (flattened from side to side).<br>
+            The genus was established by Friedrich August von Quenstedt in 1856 for an isolated tooth named Geosaurus maximus by Theodor Plieninger in 1846.<br>
+            Dakosaurus was a carnivore that spent much, if not all, of its life out at sea.<br>
+            The extent of its adaptation to a marine lifestyle means that it is most likely that it mated at sea,<br>
+            but since no eggs or nests have been discovered that have been referred to Dakosaurus, whether it gave birth to live young at sea like dolphins and ichthyosaurs or came ashore like turtles is not known yet.<br>
+            <p class="food" id="mar">Marine</p>
+            </div>
+            <div>
+                <img src="dakosaur.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+                <img src="dakosaur2.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+            </div>
+        </div>
+        <div id="dino6" class="tdino">
+            <div>
+            <h1>BRACHIOSAURUS</h1>
+            Brachiosaurus is a genus of sauropod dinosaur that lived in North America during the Late Jurassic, about 155.6 to 145.5 million years ago.<br>
+            It was first described by American paleontologist Elmer S. Riggs in 1903 from fossils found in the Colorado River valley in western Colorado, United States.<br>
+            Riggs named the dinosaur Brachiosaurus altithorax; the generic name is Greek for "arm lizard", in reference to its proportionately long arms,<br>
+            and the specific name means "deep chest". Brachiosaurus is estimated to have been between 18 and 22 meters (59 and 72 ft) long;<br>
+            body mass estimates of the subadult holotype specimen range from 28.3 to 46.9 metric tons (31.2 to 51.7 short tons).<br>
+            <p class="food" id="her">Herbivore</p>
+            </div>
+            <div>
+                <img src="brachio.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+                <img src="brachio2.png" height="200px" width="300px" style="border-radius: 7px; margin: 2px; border: 2px solid;">
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+h1
+{
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+/* When you create a tag group in css it will apply to every text with theh1 heading. So if your document has 4 h1 tags this particular 
+design will affect all four.*/
+
+.prclass
+{
+background-color: antiquewhite;
+color: blue;
+text-align: center;
+}
